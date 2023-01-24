@@ -13,4 +13,4 @@ RUN apt-get install -y nodejs
 COPY requirements.txt ./requirements.txt
 RUN pip3 install -r requirements.txt
 COPY ..
-CMD gunicorn app:app & python3 -m Zaid
+CMD gunicorn app:app & bash start
