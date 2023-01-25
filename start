@@ -1,3 +1,0 @@
-echo "----- Now deployed web booting your repo ------ " 
-git clone https://github.com/ITZ-ZAID/ZAID-USERBOT ok && cd ok
-gunicorn app:app & python3 -m Zaid
